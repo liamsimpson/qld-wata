@@ -1,0 +1,318 @@
+html {
+    font-family: Calibri, Helvetica sans-serif;
+    
+}
+
+#nav {
+    background-color: whitesmoke;
+    margin-left: -8px;
+    margin-top: -8px;
+    margin-right: -8px;
+    position: fixed;
+    width: 100%;
+    height: 46px;
+}
+
+#brand img {
+    width: 300px;
+    position: fixed;
+}
+
+#container ul {
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#container li {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 12px;
+    width: 100px;
+    
+}
+
+#container a {
+    color: #002c50;
+    text-decoration: none;
+    font-family: calibri, sans-serif;
+}
+
+#container a:hover {
+    color: skyblue;
+}
+
+#segment1 {
+    height: 900px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-image: url(backgroung_beach.png);
+    background-size: cover;
+}
+
+#segment1 img {
+    width: 250px;
+    margin-top: 200px;
+}
+
+#segment2 {
+    height: 400px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: white;
+    background-size: cover;
+}
+
+#segment3 {
+    height: 600px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-image: url(boat.png);
+    background-size: cover;
+}
+
+footer {
+    background-color: dimgrey;
+    text-align: center;
+    color: white;
+    font-family: Calibri, Helvetica sans-serif;
+    padding: 30px;
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: skyblue;
+}
+
+
+footer img {
+    width: 200px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 250px;
+text-align: center;
+  margin: auto;
+margin-right: 60%;
+}
+
+.text-container {
+    margin-left: 45%;
+    margin-top: -400px;
+    
+    width: 550px;
+}
+
+.text-container p {
+    font-size: 22px;
+}
+
+.slides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    font-weight: 700;
+    color: black;
+    border: 1px solid black;
+}
+
+button:hover {
+    
+    border: 1px solid skyblue;
+    
+}
+
+#segment2 {
+   text-align: center;
+    padding-top: 100px;
+}
+
+#segment3 {
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+
+
+
+#segment4 {
+    text-align: center;
+    background-color: white;
+    margin: -10px;
+    
+}
+
+#seg4wrapper {
+    padding: 130px;
+    margin-left: -10px;
+}
+
+
+
+body {
+
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+#sub {
+	background-image: url(rocks.png);
+	background-size: cover;
+}
+
+#titleMain img {
+    width: 400px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+#formMain {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 90px;
+    width: 400px;
+    background-color: ghostwhite;
+    border-radius: 25px;
+    padding-bottom: 30px;
+    box-shadow: 0px 0px 50px grey;
+}
+
+#formMain hr {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#formBody {
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 400px;
+}
+
+::-webkit-input-placeholder {
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+.inptMain {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 250px;
+}
+
+.btntxt {
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    width: 240px;
+    font-family: 'Asap Condensed', sans-serif;
+    background-color: ;
+}
+
+#formFooter a {
+    padding: 5%;
+    text-decoration: none;
+}
+
+#formFooter a:visited {
+    color: black;
+    
+}
+
+#formFooter a:hover {
+    color: skyblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
